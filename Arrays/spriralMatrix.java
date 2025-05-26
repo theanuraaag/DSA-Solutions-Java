@@ -9,7 +9,7 @@ class Solution {
         int startCol = 0;
         int endCol = n-1;
         List <Integer> list = new ArrayList<>();
-        while(startRow <= endRow && startCol <= startCol)
+        while(startRow <= endRow && startCol <= endCol)
         {
             for(int i=startCol; i <= endCol;i++)
             {
